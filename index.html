@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>quiz!</title>
+  </head>
+  <body>
+    <div class="wraper">
+      <div class="bg"></div>
+      <div class="contener">
+        <!-- start manu -->
+        <div class="active screen start-screen" id="start-screen">
+          <div class="main-logo">
+            <h1>quiz!</h1>
+          </div>
+
+          <p>test your knowledge with 5 fun questions</p>
+          <div class="button-start">
+            <button>start</button>
+          </div>
+        </div>
+
+        <!-- quiz menu -->
+        <div class=" screen quiz-screen" id="quiz-screen">
+          <div class="score-progress">
+            <div class="progress-num">
+              <span id="current-qus">1</span>
+              <p>/</p>
+              <span id="totle-qus">5</span>
+            </div>
+            <div id="projress-qus">
+              <div id="compleate-projress-qus"></div>
+            </div>
+          </div>
+          <div class="main-qus-aria">
+            <div id="main-qus">
+              <h2>what is the capital of India ?</h2>
+            </div>
+          </div>
+          <div class="qus-option" id="qus-option">
+            <!-- all of the option is gose heare -->
+            <!-- <div class="option writeOption">11111111</div> -->
+          </div>
+        </div>
+
+        <!-- finale resalt screen -->
+        <div class=" screen result-screen" id="result-screen">
+          <div id="result">
+            <h2></h2>
+            <p><span id="myScore">5</span> out of <span>5</span></p>
+            <p id="moralSaport">Amazing! You got every question right!</p>
+          </div>
+          <button id="homeScreen">Restart</button>
+        </div>
+
+        <!-- <script
+          src="https://code.jquery.com/jquery-4.0.0.js"
+          integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
+          crossorigin="anonymous"
+        ></script> -->
+        <script src="./ass/jq.js" ></script>
+        <script type="module" src="./app.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
